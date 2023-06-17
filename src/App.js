@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
 // import Layout from "./components/layout/Layout";
-import IndexPage from "./pages/Index";
+// import IndexPage from "./pages/Index";
 
 import MainNavigation from "./components/layout/MainNavigation";
 import RegisterPage from "./pages/Register";
