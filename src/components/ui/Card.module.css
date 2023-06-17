@@ -1,0 +1,8 @@
+.card {
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 20px;
+    width: fit-content; /* Change width to fit the content */
+    /* margin: 0 auto; Center the card horizontally */
+  }

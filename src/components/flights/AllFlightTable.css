@@ -1,0 +1,74 @@
+.flight-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .flight-table th,
+  .flight-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .flight-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .flight-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .flight-table tbody tr:hover {
+    background-color: #eaf2f8;
+  }
+  
+  .flight-table td.actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .flight-table .edit-btn,
+  .flight-table .delete-btn {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .flight-table .edit-btn:hover,
+  .flight-table .delete-btn:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .flight-table .delete-btn {
+    color: #ff5050;
+  }
+
+  .btn-box {
+    /* display: flex;
+      flex-direction: column;
+      align-items: end; */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+  }
+
+  .btn-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    color: #800040;
+    font-size: 48px;
+  
+    border: none;
+    cursor: pointer;
+  }
