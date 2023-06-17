@@ -29,7 +29,7 @@ function SignIn() {
     console.log(userData);
   
     try {
-      const response = await axios.post("http://localhost:8080/api/login", userData);
+      const response = await axios.post("http://15.206.27.173:8080/api/login", userData);
       const token = response.data.token;
       
       console.log(token);

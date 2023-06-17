@@ -23,7 +23,7 @@ function SignUp() {
     };
 
     try {
-      const response = await axios.post("http://localhost:8080/api/signup", newUser); // Replace "/api/signup" with your actual signup endpoint
+      const response = await axios.post("http://15.206.27.173:8080/api/signup", newUser); // Replace "/api/signup" with your actual signup endpoint
       console.log(response.data); // Assuming the server responds with the created user data
       navigate("/login"); // Redirect to the login page after successful signup
     } catch (error) {

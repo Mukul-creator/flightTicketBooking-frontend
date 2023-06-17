@@ -15,7 +15,7 @@ function MyBookings() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8080/api/bookings",
+          "http://15.206.27.173:8080/api/bookings",
           {
             headers: {
               Authorization: `Bearer ${token}`,

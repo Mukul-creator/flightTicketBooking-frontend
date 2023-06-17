@@ -16,7 +16,7 @@ function AllFlighttable() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8080/api/allflights",
+          "http://15.206.27.173:8080/api/allflights",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -44,7 +44,7 @@ function AllFlighttable() {
 
   const deleteFlight = async (flightId) => {
     try {
-      await axios.delete(`http://localhost:8080/api/removeflight/${flightId}`, {
+      await axios.delete(`http://15.206.27.173:8080/api/removeflight/${flightId}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },

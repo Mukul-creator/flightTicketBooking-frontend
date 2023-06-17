@@ -39,7 +39,7 @@ const AddFlightForm = () => {
 
     try {
       const response = await axios.post(
-        `http://localhost:8080/api/addflight`,
+        `http://15.206.27.173:8080/api/addflight`,
         flight,
         {
           headers: {
