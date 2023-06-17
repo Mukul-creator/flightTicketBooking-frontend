@@ -144,7 +144,7 @@ const FlightSearch = () => {
 
     try {
       const response = await axios.get(
-        `http://15.206.27.173:8080/flights?departureAirport=${origin}&arrivalAirport=${destination}&date=${departureDate}&passenger=${NoOfPassengers}`,
+        `http://15.206.27.173:8080/api/flights?departureAirport=${origin}&arrivalAirport=${destination}&date=${departureDate}&passenger=${NoOfPassengers}`,
         {
           headers: {
             Authorization: `Bearer ${token}`, // Replace with your token

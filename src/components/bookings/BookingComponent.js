@@ -67,7 +67,7 @@ const BookingComponent = () => {
   const bookTIcket = async () => {
     try {
       const response = await axios.post(
-        "http://15.206.27.173:8080//api/createbooking",
+        "http://15.206.27.173:8080/api/createbooking",
         data,
         {
           headers: {
